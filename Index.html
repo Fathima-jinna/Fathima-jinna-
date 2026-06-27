@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Admission Submission Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>College Admission Submission Tracker</h2>
+
+    <input type="text" id="studentName" placeholder="Student Name">
+    <input type="text" id="course" placeholder="Course">
+    <input type="date" id="date">
+    <button onclick="addStudent()">Submit</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Course</th>
+                <th>Submission Date</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
